@@ -1,0 +1,32 @@
+yabai -m config layout bsp 
+
+yabai -m config window_placement second_child
+
+# mouse
+
+yabai -m config mouse_follows_focus_on
+
+yabai -m config mouse_modifier alt
+
+yabai -m config mouse_action1 move
+# (mouse_modifier) + left click = drag
+
+yabai -m config mouse_action2 resize
+# (mouse_modifier) + right click = resize window
+
+yabai -m config mouse_drop_action swap
+# move window to another windows center = swaps them
+
+# padding?
+
+yabai -m config top_padding 4
+yabai -m config bottom_padding 4
+yabai -m config left_padding 4
+yabai -m config right_padding 4
+yabai -m config window_gap 4
+
+# disable apps from using yabai
+
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+
