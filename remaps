@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+# source on startup
+
+# increase key speed via a rate change (kindof get more key sensibility)
+xset r rate 400 50
+
+
