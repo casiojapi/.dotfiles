@@ -1,0 +1,89 @@
+# GENERAL SETTINGS
+window:
+  padding:
+    x: 15
+    y: 10
+  dynamic_padding: false
+  dynamic_title: true
+  opacity: 0.78
+font:
+  normal:
+    family: Mononoki 
+    style: Normal
+  italic:
+    family: Mononoki 
+    style: Italic
+  bold:
+    family: Mononoki 
+    style: Bold
+  size: 10
+  offset:
+    x: 1
+    y: 2
+  glyph_offset:
+    x: 0
+    y: 0
+scrolling:
+  history: 5000
+  multiplier: 3
+mouse:
+  hide_when_typing: true
+cursor:
+  style:
+    shape: Block
+  unfocused_hollow: true
+selection:
+  save_to_clipboard: true
+debug:
+  persistent_logging: true
+logging: true
+
+# COLORS
+draw_bold_text_with_bright_colors: true
+
+base16_colors:
+  base00: &base00 "#161616"
+  base01: &base01 "#262626"
+  base02: &base02 "#393939"
+  base03: &base03 "#525252"
+  base04: &base04 "#dde1e6"
+  base05: &base05 "#f2f4f8"
+  base06: &base06 "#ffffff"
+  base07: &base07 "#08bdba"
+  base08: &base08 "#3ddbd9"
+  base09: &base09 "#78a9ff"
+  base0A: &base0A "#ee5396"
+  base0B: &base0B "#33b1ff"
+  base0C: &base0C "#ff7eb6"
+  base0D: &base0D "#42be65"
+  base0E: &base0E "#be95ff"
+  base0F: &base0F "#82cfff"
+
+# Colors (Blood Moon)
+colors:
+  # Default colors
+  primary:
+    background: '#10100E'
+    foreground: '#C6C6C4'
+
+  # Normal colors
+  normal:
+    black:   '#10100E'
+    red:     '#C40233'
+    green:   '#009F6B'
+    yellow:  '#FFD700'
+    blue:    '#0087BD'
+    magenta: '#9A4EAE'
+    cyan:    '#20B2AA'
+    white:   '#C6C6C4'
+
+  # Bright colors
+  bright:
+    black:   '#696969'
+    red:     '#FF2400'
+    green:   '#03C03C'
+    yellow:  '#FFD700'
+    blue:    '#007FFF'
+    magenta: '#FF1493'
+    cyan:    '#00CCCC'
+    white:   '#FFFAFA'
